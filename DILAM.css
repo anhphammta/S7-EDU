@@ -1,0 +1,120 @@
+/* ==========RESET CSS================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-first{
+    display: flex;
+    justify-content: center;
+    padding-top: 50%;
+    position: relative;
+    background: url('./background/3649732.jpg') top center/cover no-repeat;
+}
+
+.main-first .main-container{
+    bottom: 50%;
+    width: 400px;
+    height: 420px;  
+    padding: 32px 16px;
+    position: absolute;
+    background-color: #fff;
+    transform: translateY(50%);
+    box-shadow: 0 0 5px #333;
+}
+
+.main-first .footer-layout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-layout .paragraph-footer{
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    bottom: 0;
+    margin-top: 220px;
+}
+
+.main-container .heading{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.main-container .heading .heaidng-img{
+    width: 72px;
+    height: 80px;  
+}
+
+.form{
+    margin: 0px 16px;
+}
+
+.form .input-wr{
+    display: block;
+    border: 1px solid #ccc;
+    padding: 16px;
+    width: 100%;
+}
+
+.form .input-wr-two{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.password-user{
+    display: flex;
+}
+
+.icon-input{
+    position: relative;
+}
+
+.icon-input .icon-narrow{
+    line-height: 60px;
+    color: #0073e6;
+    position: absolute;
+
+}
+
+.forgot-password{
+    display: flex;
+    margin: 0px 16px;
+    height: 48px;
+}
+
+.forgot-password p a{
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+    line-height: 48px;
+}
+
+.btn-layout{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.btn-layout .btn-login{
+    line-height: 48px;
+    width: 100%;
+    height: 48px;
+    color: #fff;
+    background-color: #0073e6;
+    border: 1px solid #ccc;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.btn-layout .btn-login:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
